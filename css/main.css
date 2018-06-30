@@ -1,0 +1,47 @@
+html,body {
+	margin: 0;
+	background: gray;
+	font-family: Arial;
+}
+
+.container {
+	width: 350px;
+	padding: 2em;
+	background: white;
+	border-radius: 8px;
+	margin: 10% auto;
+}
+
+h1 {
+	margin: 0;
+}
+
+p {
+	color: lightgray;
+}
+
+.textField {
+	width: calc(100% - 2em);
+	padding: 1em;
+	margin-top: 1em;
+}
+
+.btn {
+	width: 100%;
+	background: #2E86C1;
+	color: white;
+	margin-top: 2em;
+	border: none;
+	border-radius: 5px;
+	padding: 1em;
+	font-size: 1.2em;
+	cursor: pointer;
+}
+
+.msg {
+	position: absolute;
+	padding: .5em;
+	background: black;
+	color: white;
+	opacity: 0;
+}
